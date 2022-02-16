@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PointGG"
+    android:background="@drawable/bg3">
+
+
+    <ImageView
+        android:id="@+id/imageViewTT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bg_slots_table1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TableLayout
+        android:layout_width="345dp"
+        android:layout_height="300dp"
+        android:layout_margin="40dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewTT"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewTT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewTT"
+        >
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="5dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="65dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="65dp"
+
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="65dp"
+
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="65dp"
+
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="65dp"
+
+                android:layout_height="60dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:visibility="invisible"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="YOU WIN!!!"
+        android:visibility="invisible"
+        android:textColor="#FFFB0D"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
