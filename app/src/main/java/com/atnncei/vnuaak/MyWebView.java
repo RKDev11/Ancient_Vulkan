@@ -128,7 +128,7 @@ public class MyWebView extends WebView {
                 super.onPageFinished(view, url);
                 SharedPreferences sss = PreferenceManager.getDefaultSharedPreferences(view.getContext());
                 SharedPreferences.Editor ppappa = sss.edit();
-                ppappa.putString(Dec.DecPoo("ppp_keey"), url);
+                ppappa.putString(Dec.DecPoo("cHBwX2tlZXk="), url);
                 ppappa.apply();
             }
         });
