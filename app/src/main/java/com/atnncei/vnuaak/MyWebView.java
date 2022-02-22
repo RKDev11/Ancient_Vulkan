@@ -116,7 +116,7 @@ public class MyWebView extends WebView {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                if (url.contains(Dec.DecPoo("NDA0"))){
+                if (url.contains(Dec.DecPoo("Z2FwcHM9NDA0"))){
                     Intent intent = new Intent(context, Center.class);
                     av.startActivity(intent);
                     av.finishAffinity();

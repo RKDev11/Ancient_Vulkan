@@ -64,7 +64,6 @@ public class AV1 extends AppCompatActivity {
         }
         FILE_ATNNCEI_VNUAAK.onReceiveValue(resultsSsetcerOefljgun);
         FILE_ATNNCEI_VNUAAK = null;
-
     }
 
     @Override
